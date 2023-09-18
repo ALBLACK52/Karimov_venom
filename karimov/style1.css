@@ -23,7 +23,7 @@ a{
 a:hover{
     opacity: 100%;
     transition: .3s;
-    transform: scale(1.2);
+    transform: scale(1.1);
 }
 
 header{
@@ -43,65 +43,58 @@ ul{
     justify-content: space-between;
 }
 
-h2{
-width: 400;
-font-size: 24px;
-color: white;
-opacity: 80%;
+h1{
+    width: 700px;
+    font-size: 36px;
+    color: white;
+    opacity: 80%;
 }
 
 .bob{
-    margin-top: 100px;
+    width: 500px;
+}
+
+.left p {
     width: 400px;
     color: white;
     opacity: 80%;
     font-size: 20px;
 }
 
-.smotr {
-    height: 30px;
-    padding: 15px 30px 15px 30px;
-    width: 150px;
-    background-color: white;
-    align-items: center;
-    display: flex;
-    gap: 10px;
-    border-radius: 5px;
-    
-}
-
-.smotr p{
-color:#8D0019 ;
-width: 400px;
-font-size: 14px;
-}
-
-.tick{
-    display: flex;
-    gap: 10px;
-    align-items: center;
+h2{
+    font-weight: 700;
     color: white;
     opacity: 80%;
-    font-size: 16px;
+    font-size: 18px;
+
 }
 
-.tick img{
-    width: 15px;
-    height: 15px;
+.role{
+display: flex;
 }
 
-.buttons{
-    margin-top: 150px;
-    display: flex;
-    gap: 40px;
+.role p{
+font-size: 16px;
 }
 
 main{
     display: flex;
 }
 
-.ven{
-    margin-top: -1024px;
-    margin-left: 190px;
+.vid{
+    margin-top: 80px;
+    background-image: url(./img/Rectangle\ 2.jpg);
+    border-radius: 5px;
+    width: 356px;
+    height: 205px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
 }
 
+.right{
+    color: white;
+    opacity: 80%;
+    margin-left: 50px;
+    margin-top: -22px;
+}
