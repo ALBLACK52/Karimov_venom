@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+body{
+    background-image: url(./img/bg.png);
+    font-family: "Roboto";
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.container{
+    width: 1600px;
+    margin: 0 auto;
+}
+
+a{
+   text-decoration: none;
+   color: white;
+   opacity: 50%; 
+   font-weight: 400;
+   font-size: 18px;
+}
+
+header{
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    width: 46px;
+    height: 71px;
+}
+
+ul{
+    list-style: none;
+    width: 321px;
+    display: flex;
+    justify-content: space-between;
+}
+
+h2{
+width: 400;
+font-size: 24px;
+color: white;
+opacity: 80%;
+}
+
+.bob{
+    margin-top: 100px;
+    width: 400px;
+    color: white;
+    opacity: 80%;
+    font-size: 20px;
+}
+
+.smotr {
+    height: 30px;
+    padding: 15px 30px 15px 30px;
+    width: 150px;
+    background-color: white;
+    align-items: center;
+    display: flex;
+    gap: 10px;
+    border-radius: 5px;
+    
+}
+
+.smotr p{
+color:#8D0019 ;
+width: 400px;
+font-size: 14px;
+}
+
+.tick{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    color: white;
+    opacity: 80%;
+    font-size: 16px;
+}
+
+.tick img{
+    width: 15px;
+    height: 15px;
+}
+
+.buttons{
+    margin-top: 150px;
+    display: flex;
+    gap: 40px;
+}
+
+main{
+    display: flex;
+}
+
+.ven{
+    margin-top: -1024px;
+    margin-left: 190px;
+}
+
